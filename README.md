@@ -158,7 +158,10 @@ Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twit
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
-
 Second part of Airbnb: Joann Vuong
+
+v4 implementation:  
+Elias Brinkman - [Github](https://github.com/eliBrank)  
+Tanner Saint - [Github](https://github.com/TrippyVaultBoy)  
 ## License
 Public Domain. No copy write protection. 
