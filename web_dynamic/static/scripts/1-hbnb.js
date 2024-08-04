@@ -1,12 +1,14 @@
-var checked_amenities = {};
+const checkedAmenities = {};
 
 $(document).ready(function () {
   $('input[type=checkbox]').change(function () {
+    const id = $(this).data('id');
+    const name = $(this).data('name');
     if (this.checked) {
-      checked_amenities[$((this).data('id'))] = ' ' + $(this).data('name');
+      checkedAmenities[id] = name;
     } else {
-      delete checked_amenities[$(this).data('id')];
+      delete checkedAmenities[id];
     }
-    $('DIV.amenities h4').text(Object.values(checked_amenities));
+    $('div.amenities h4').text(Object.values(checkedAmenities).join(', '));
   });
 });
