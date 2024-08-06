@@ -14,7 +14,7 @@ $(document).ready(function () {
 
   $.ajax({
     type: 'GET',
-    url: 'http://0.0.0.0:5001/api/v1/status/',
+    url: 'http://localhost:5001/api/v1/status/',
     success: function (response) {
       const apiStatus = $('div#api_status');
       if (response.status === 'OK') {
