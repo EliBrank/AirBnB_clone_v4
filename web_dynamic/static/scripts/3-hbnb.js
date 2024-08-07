@@ -33,11 +33,11 @@ $(document).ready(function () {
     success: function (data) {
       const placesSection = $('section.places');
 
-	  // clear existing content if any
+      // clear existing content if any
       placesSection.empty();
 
       data.forEach(place => {
-        let template = `
+        const template = `
           <article>
             <div class="title_box">
               <h2>${place.name}</h2>
